@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { Github, Send, Mail } from 'lucide-react'
+import { Github, Send, Mail, FileText, Download } from 'lucide-react'
 import Portfolio from './portfolio'
 
 export default function Contact() {
@@ -109,6 +109,28 @@ export default function Contact() {
                   title="GitHub"
                 >
                   <Github size={20} />
+                </a>
+              </div>
+
+              <h3 className="text-xl font-bold mb-6 pt-6">Download Documents</h3>
+              <div className="space-y-3">
+                <a
+                  href="/cv-files/Talgat_Zakiryanov_CV_2025.pdf"
+                  download
+                  className="flex items-center gap-3 p-3 bg-accent/10 rounded-lg hover:bg-accent/20 transition-all duration-300 group"
+                >
+                  <FileText size={20} className="text-accent" />
+                  <span className="flex-1">CV / Resume</span>
+                  <Download size={16} className="text-muted-foreground group-hover:text-accent" />
+                </a>
+                <a
+                  href="/cv-files/Talgat_Zakiryanov_Cover_Letter_2025.pdf"
+                  download
+                  className="flex items-center gap-3 p-3 bg-accent/10 rounded-lg hover:bg-accent/20 transition-all duration-300 group"
+                >
+                  <FileText size={20} className="text-accent" />
+                  <span className="flex-1">Cover Letter</span>
+                  <Download size={16} className="text-muted-foreground group-hover:text-accent" />
                 </a>
               </div>
             </div>
