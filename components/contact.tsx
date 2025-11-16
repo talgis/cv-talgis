@@ -113,9 +113,6 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
-          {/* Portfolio section is now in a separate component */}
-          <Portfolio />
         </div>
       </div>
     </section>
