@@ -23,7 +23,7 @@ export default function Header({ scrolled }: HeaderProps) {
           <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center font-bold text-black">
             TZ
           </div>
-          <span className="font-bold text-lg hidden sm:inline">Talgat</span>
+          <span className="font-bold text-lg hidden sm:inline">Talgat Zakiryanov</span>
         </Link>
 
         {/* Desktop Navigation */}
