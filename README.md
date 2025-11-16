@@ -73,7 +73,7 @@ All components feature:
 
 ## Project Structure
 
-\`\`\`
+```
 app/
 ├── page.tsx              # Main portfolio page
 ├── layout.tsx            # Root layout with metadata and fonts
@@ -91,7 +91,7 @@ components/
 ├── contact.tsx           # Contact information
 ├── footer.tsx            # Footer
 └── theme-provider.tsx    # Theme configuration
-\`\`\`
+```
 
 ## How It's Demonstrated
 
